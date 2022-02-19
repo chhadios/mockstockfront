@@ -23,7 +23,7 @@ const Footer = () => {
               <div>
                 <h3 className="text-gray-700 uppercase dark:text-white">Info</h3>
                 <Link to="/guide" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Guide</Link>
-                <Link to="/careers" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Careers</Link>
+                <Link  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Careers</Link>
               </div>
 
               <div>
