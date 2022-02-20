@@ -10,7 +10,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100">What is Mock Stocks?</h2>
 
             <p className="mt-4 text-gray-500 dark:text-gray-400 lg:max-w-full">
-              Mock Stocks is a trading platform simulation with real time quotes and investment monitoring. It is not a reflection of how the real stock markets work and prices here are not reflective of the real world.
+            Virtual Stock Trading (also known as Paper Trading) is similar to actual trading where you can buy and sell stocks. However, here no real money is involved. You invest only in virtual money.
             </p>
           </div>
 

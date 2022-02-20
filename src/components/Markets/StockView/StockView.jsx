@@ -113,7 +113,7 @@ const StockView = () => {
                 <span aria-hidden="true" className="absolute inset-0 bg-blue-200 dark:bg-blue-700 opacity-50 rounded-full">
                 </span>
                 <span className="relative text-blue-500 dark:text-blue-400">
-                  {`${filteredStocks.length}` + (filteredStocks.length > 1 ? " results found..." : " result found...")}
+                   result found...
                 </span>
               </span>
               :

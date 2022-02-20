@@ -11,7 +11,7 @@ const TopInfoSection = (props) => {
           </span>
         </h2>
         <p className="text-xl mt-4 max-w-full mx-auto text-gray-400">
-          See our selection of the biggest names in the industry. <br/> Currently {count} stocks available for purchase.
+          See biggest names in the industry. <br/> Current stocks available for purchase.
         </p>
       </div>
     </div>
