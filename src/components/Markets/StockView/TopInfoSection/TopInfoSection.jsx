@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TopInfoSection = (props) => {
-  const { count } = props;
+  // const { count } = props;
   return (
     <div className="bg-white dark:bg-gray-800 pt-12">
       <div className="text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8 z-20">
