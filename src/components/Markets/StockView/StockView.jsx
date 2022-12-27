@@ -9,7 +9,7 @@ import TopInfoSection from "./TopInfoSection/TopInfoSection";
 import Pagination from "../../Pagination/Pagination";
 
 const StockView = () => {
-  const socket = socketIOClient("https://mockstock--backen.herokuapp.com/", { transports: ['websocket', 'polling', 'flashsocket'] });
+  const socket = socketIOClient("https://mock-stock-backend.onrender.com/", { transports: ['websocket', 'polling', 'flashsocket'] });
   const errors = useSelector((state) => state.marketErrorsReducer);
   const stocks = useSelector((state) => state.stocksReducer);
   const [isListMode, setIsListMode] = useState(true);

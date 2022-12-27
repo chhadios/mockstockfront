@@ -9,7 +9,7 @@ import PriceChart from "../PriceChart/PriceChart";
 
 const StockDetails = (props) => {
   const { id } = props;
-  const socket = socketIOClient("https://mockstock--backen.herokuapp.com/", { transports: ['websocket', 'polling', 'flashsocket'] });
+  const socket = socketIOClient("https://mock-stock-backend.onrender.com/", { transports: ['websocket', 'polling', 'flashsocket'] });
   const stock = useSelector((state) => state.stocksReducer);
   const dispatch = useDispatch();
 

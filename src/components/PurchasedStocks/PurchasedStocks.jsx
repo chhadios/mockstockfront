@@ -8,7 +8,7 @@ import PurchaseOverview from "./PurchaseOverview/PurchaseOverview";
 import PurchaseOverviewSkeleton from "./PurchaseOverview/PurchaseOverviewSkeleton";
 
 const PurchasedStocks = () => {
-  const socket = socketIOClient("https://mockstock--backen.herokuapp.com/", { transports: ['websocket', 'polling', 'flashsocket'] });
+  const socket = socketIOClient("https://mock-stock-backend.onrender.com/", { transports: ['websocket', 'polling', 'flashsocket'] });
   const purchases = useSelector((state) => state.purchasedReducer);
   const dispatch = useDispatch();
 
